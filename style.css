@@ -1,0 +1,491 @@
+img {
+    width: 100%;
+}
+
+
+
+/* --------------  FORSIDE  ---------------  */
+
+#forside body {
+    background-color: #EEEAE5;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#forside {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+#forside .menu {
+    top: 0vw;
+    right: 40vw;
+
+}
+
+
+
+#forside .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+
+
+#forside .column {
+    flex-grow: 1;
+    flex-basis: 350px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+
+#forside .txt {
+    align-content: center;
+    display: flex;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+
+/* ----------  ENKELTE  BILLEDER PÅ FORSIDEN --------------  */
+
+#forside .felt1 {
+    background-image: url(img/tilmelding.jpg);
+    background-size: cover;
+
+
+
+}
+
+#forside .overlay1 {
+    position: absolute;
+    background-color: rgba(167, 103, 18, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#forside .overlay1:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+#forside .felt1 {
+    background-image: url(img/tilmelding.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+#forside .felt2 {
+    background-image: url(img/program_og_rute.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#forside .overlay2 {
+    position: absolute;
+    background-color: rgba(186, 91, 157, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#forside .overlay2:hover {
+    background-color: rgb(0, 0, 0, 0);
+    filter: blur(50px)
+}
+
+
+
+
+#forside .felt3 {
+    background-image: url(img/sponsorer.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#forside .overlay3 {
+    position: absolute;
+    background-color: rgba(53, 98, 168, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#forside .overlay3:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+#forside .felt4 {
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+
+
+
+
+#forside .felt5 {
+    background-image: url(img/resultater.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+#forside .overlay5 {
+    position: absolute;
+    background-color: rgba(191, 91, 91, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#forside .overlay5:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+#forside .felt6 {
+    background-image: url(img/stoet_haerloebet.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+#forside .overlay6 {
+    position: absolute;
+    background-color: rgba(118, 107, 47, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#forside .overlay6:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+#forside .felt7 {
+    background-image: url(img/galleri.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+#forside .overlay7 {
+    position: absolute;
+    background-color: rgba(21, 59, 17, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#forside .overlay7:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+#forside .felt8 {
+    background-image: url(img/om_haerloebet.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#forside .overlay8 {
+    position: absolute;
+    background-color: rgba(8, 39, 142, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#forside .overlay8:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+#forside .felt9 {
+    background-image: url(img/kontakt.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+#forside .overlay9 {
+    position: absolute;
+    background-color: rgba(81, 39, 113, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#forside .overlay9:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+/* --------------   FONTS: --------------------    */
+
+h3 {
+    font-size: 2.3rem;
+    font-family: facto,
+        sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+h5 {
+    color: #2a2a2a;
+    font-size: 5rem;
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+h6 {
+    font-family: facto,
+        sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3rem;
+    margin: 0;
+
+}
+
+h8 {
+    font-family: facto,
+        sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3rem;
+    margin: 0;
+    text-decoration: none;
+    padding-bottom: 1rem;
+
+}
+
+#forside a {
+    font-family: facto,
+        sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+
+#forside a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+p {
+    font-family: facto,
+        sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+a {
+    color: black;
+
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+/*FONTS
+
+
+font-family: facto,
+sans-serif;
+font-weight: 300;
+font-style: normal;
+
+font-family: facto,
+sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: facto,
+sans-serif;
+font-weight: 500;
+font-style: normal;
+
+font-family: facto,
+sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: facto,
+sans-serif;
+font-weight: 800;
+font-style: normal;
+
+*/
+
+
+
+/* ------------ MEDIA QUERY -------------- */
+
+
+
+@media screen and (max-width: 400px) {
+    #forside .column {
+        flex-grow: 1;
+        flex-basis: 350px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    #forside .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .splash {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        width: 65%;
+        margin: auto;
+    }
+}
+
+
+/* --------- 1217 px media query ---------------- */
+
+
+@media screen and (max-width: 1217px) {
+    #forside .column {
+        flex-grow: 1;
+        flex-basis: 350px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+
+    }
+}
+
+
+@media screen and (max-width: 1217px) {
+    #forside .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 1217px) {
+    .splash {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        width: 55%;
+        margin: auto;
+    }
+}
