@@ -7,7 +7,7 @@
  async function getJson() {
      console.log("getJson");
 
-     const url = "http://freddyspaghetti.dk/haerloebet/wordpress/wp-json/wp/v2/tilmelding";
+     const url = "http://freddyspaghetti.dk/haerloebet/wordpress/wp-json/wp/v2/tilmelding/7";
 
      //Henter data i filen som er defineret ovenfor
      const jsonData = await fetch(url);
@@ -17,4 +17,15 @@
 
      console.log(information);
      showInformation();
+ }
+
+
+ function showInformation() {
+     console.log("Show information");
+
+     document.querySelector(".overskrift").textContent = information.tilmelding_overskrift;
+     document.querySelector(".underoverskrift").textContent = information.tilmeld_her;
+     document.querySelector(".link").href = information.tilmeldingslink;
+     document.querySelector(".underoverskrift_2").textContent = information.praktisk_info;
+     document.querySelector(".txt").textContent = information.info_tilmelding;
  }
