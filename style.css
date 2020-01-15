@@ -342,7 +342,7 @@ h8 {
 
 }
 
-#forside a {
+.felt4 h5 {
     font-family: facto,
         sans-serif;
     font-weight: 300;
@@ -351,7 +351,7 @@ h8 {
     text-decoration: none;
 }
 
-#forside a:hover {
+.felt4 h5 :hover {
     color: black;
     text-decoration: none;
 }
@@ -367,18 +367,6 @@ p {
     font-size: 1rem;
 }
 
-a {
-    color: black;
-
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: brown;
-}
 
 /*FONTS
 
@@ -546,7 +534,7 @@ nav {
 
 #burger_knap {
     position: fixed;
-    top: 30px;
+    top: 13vh;
     right: 30px;
     width: 55px;
     height: 55px;
