@@ -1,7 +1,41 @@
+/* -------------- Generelle Regler ---------*/
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+}
+
+.footer,
+.push {
+    height: 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+body {
+    background-color: #EEEAE5;
+    max-width: 1200px;
+    margin: auto;
+}
+
 img {
     width: 100%;
 }
 
+.logo {
+    width: 90%;
+    margin: auto;
+}
 
 
 /* --------------  FORSIDE  ---------------  */
@@ -313,92 +347,61 @@ h3 {
     -webkit-text-stroke-color: black;
 }
 
-h5 {
-    color: #2a2a2a;
-    font-size: 5rem;
-    font-family: 'Allerta Stencil', sans-serif;
+#højre_side a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    color: darkolivegreen;
 
 }
-
-h6 {
-    font-family: facto,
-        sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.3rem;
-    margin: 0;
-
-}
-
-h8 {
-    font-family: facto,
-        sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.3rem;
-    margin: 0;
-    text-decoration: none;
-    padding-bottom: 1rem;
-
-}
-
-.felt4 h5 {
-    font-family: facto,
-        sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: black;
-    text-decoration: none;
-}
-
-.felt4 h5 :hover {
-    color: black;
-    text-decoration: none;
-}
-
 
 
 
 p {
-    font-family: facto,
-        sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 1rem;
 }
 
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+}
 
-/*FONTS
-
-
-font-family: facto,
-sans-serif;
-font-weight: 300;
-font-style: normal;
-
-font-family: facto,
-sans-serif;
-font-weight: 400;
-font-style: normal;
-
-font-family: facto,
-sans-serif;
-font-weight: 500;
-font-style: normal;
-
-font-family: facto,
-sans-serif;
-font-weight: 700;
-font-style: normal;
-
-font-family: facto,
-sans-serif;
-font-weight: 800;
-font-style: normal;
-
-*/
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 4vw;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
 
 
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vw;
+
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1500;
+    font-style: bold;
+    font-size: 5rem;
+    text-decoration: none;
+
+}
+
+a #felt4 {
+    text-decoration: none;
+}
 
 /* ------------ MEDIA QUERY -------------- */
 
@@ -595,4 +598,34 @@ nav {
 
 .toggle_menu {
     transform: translateX(100%);
+}
+
+
+/* -------------- TILMELDING ---------------*/
+
+#underside {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#top {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+#venstre_side {
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 5px;
+    flex-direction: row;
+}
+
+#højre_side {
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 5px;
+    flex-direction: row;
 }

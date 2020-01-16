@@ -24,15 +24,14 @@
      console.log("Show information");
 
      document.querySelector(".overskrift").textContent = information.tilmelding_overskrift;
-     document.querySelector(".billede").textContent = information.billede;
-     document.querySelector(".underoverskrift").textContent = information.tilmeld_her;
+     document.querySelector("p ").textContent = information.when;
      document.querySelector(".link").href = information.tilmeldingslink;
      document.querySelector(".underoverskrift_2").textContent = information.praktisk_info;
-     document.querySelector(".liste").textContent = information.pris_punkt1;
-     document.querySelector(".liste").textContent = information.pris_punkt2;
-     document.querySelector(".liste").textContent = information.pris_punkt3;
-     document.querySelector(".txt").textContent = information.inkluderet_i_prisen;
-     document.querySelector(".liste").textContent = information.inkluderet_punkt1;
-     document.querySelector(".liste").textContent = information.inkluderet_punkt2;
-     document.querySelector(".liste").textContent = information.inkluderet_punkt3;
+     document.querySelector(".liste1 li").textContent = information.pris_punkt1;
+     document.querySelector(".liste1 li+li").textContent = information.pris_punkt2;
+     document.querySelector(".liste1 li+li+li").textContent = information.pris_punkt3;
+     document.querySelector("#inkl .txt").textContent = information.inkluderet_i_prisen;
+     document.querySelector(".liste2 li").textContent = information.inkluderet_punkt1;
+     document.querySelector(".liste2 li+li").textContent = information.inkluderet_punkt2;
+     document.querySelector(".liste2 li+li+li").textContent = information.inkluderet_punkt3;
  }
