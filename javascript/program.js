@@ -32,13 +32,13 @@
      document.querySelector("#programmet .liste2 li+li").textContent = information.timing2;
      document.querySelector("#programmet .liste2 li+li+li").textContent = information.timing3;
      document.querySelector("#programmet .liste2 li+li+li+li").textContent = information.timing5;
-     document.querySelector("#programmet .liste1 li+li+li+li+li").textContent = information.timing4;
-     document.querySelector("#programmet .liste1 li+li+li+li+li+li").textContent = information.timing6;
-     document.querySelector("#programmet .liste1 li+li+li+li+li+li+li").textContent = information.timing7;
+     document.querySelector("#programmet .liste2 li+li+li+li+li").textContent = information.timing4;
+     document.querySelector("#programmet .liste2 li+li+li+li+li+li").textContent = information.timing6;
+     document.querySelector("#programmet .liste2 li+li+li+li+li+li+li").textContent = information.timing7;
      document.querySelector("#ruten .underoverskrift").textContent = information.om_ruten;
      document.querySelector("#ruten .txt").textContent = information.om_om_ruten1;
-     document.querySelector("#ruten .txt").textContent = information.om_om_ruten2;
-     document.querySelector("#ruten .txt").textContent = information.om_om_ruten3;
+     document.querySelector("#ruten .txt+.txt").textContent = information.om_om_ruten2;
+     document.querySelector("#ruten .txt+.txt+.txt").textContent = information.om_om_ruten3;
 
      //indsæt billedet her med REST API//
 
