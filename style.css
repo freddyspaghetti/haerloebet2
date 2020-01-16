@@ -350,6 +350,7 @@ h3 {
 #højre_side a {
     font-family: 'Montserrat', sans-serif;
     font-size: 3vw;
+    font-weight: 700;
     color: darkolivegreen;
 
 }
@@ -372,9 +373,9 @@ li {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     font-style: normal;
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;
     margin: auto;
     margin-bottom: 30px;
@@ -386,7 +387,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 2vw;
+    font-size: 2rem;
 
 }
 
@@ -603,29 +604,34 @@ nav {
 
 /* -------------- TILMELDING ---------------*/
 
-#underside {
-
+#sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
 }
 
 
 #top {
     flex-wrap: wrap;
     display: flex;
-    flex-direction: row;
+
 }
 
 #venstre_side {
-    flex-basis: 300px;
     flex-grow: 1;
-    margin: 5px;
-    flex-direction: row;
+    flex-basis: 300px;
+    display: flex;
+    background-size: 100%;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 #højre_side {
-    flex-basis: 300px;
     flex-grow: 1;
-    margin: 5px;
+    flex-basis: 300px;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+
 }
