@@ -24,6 +24,7 @@
      console.log("Show information");
 
      document.querySelector(".overskrift").textContent = information.tilmelding_overskrift;
+     document.querySelector("#tilmeld_img").src = information.billede.guid;
      document.querySelector("p ").textContent = information.when;
      document.querySelector(".link").href = information.tilmeldingslink;
      document.querySelector(".underoverskrift_2").textContent = information.praktisk_info;

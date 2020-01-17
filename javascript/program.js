@@ -44,5 +44,5 @@
 
      //indsæt billedet her med REST API//
 
-     document.querySelector("#tilmeld_img").src = information.kort_over_ruten.guid;
+     document.querySelector("#kort_over_ruten").src = information.kort_over_ruten.guid;
  }
