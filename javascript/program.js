@@ -36,11 +36,13 @@
      document.querySelector("#programmet .liste2 li+li+li+li+li+li").textContent = information.timing6;
      document.querySelector("#programmet .liste2 li+li+li+li+li+li+li").textContent = information.timing7;
      document.querySelector("#ruten .underoverskrift").textContent = information.om_ruten;
-     document.querySelector("#ruten .txt").textContent = information.om_om_ruten1;
-     document.querySelector("#ruten .txt+.txt").textContent = information.om_om_ruten2;
-     document.querySelector("#ruten .txt+.txt+.txt").textContent = information.om_om_ruten3;
+
+
+     document.querySelector("#ruten p").textContent = information.om_om_ruten1;
+     document.querySelector("#ruten p+p").textContent = information.om_om_ruten2;
+     document.querySelector("#ruten p+p+p").textContent = information.om_om_ruten3;
 
      //indsæt billedet her med REST API//
 
-
+     document.querySelector("#tilmeld_img").src = information.kort_over_ruten.guid;
  }
