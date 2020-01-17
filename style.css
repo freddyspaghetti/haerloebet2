@@ -349,12 +349,12 @@ h3 {
 
 #højre_side a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3vw;
+    font-size: 1.5rem;
     font-weight: 700;
     color: darkolivegreen;
+    margin: 30px;
 
 }
-
 
 
 p {
