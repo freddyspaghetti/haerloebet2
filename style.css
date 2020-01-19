@@ -339,10 +339,9 @@ img {
 
 h3 {
     font-size: 2.3rem;
-    font-family: facto,
-        sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 }
@@ -351,7 +350,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color: darkolivegreen;
+    color: #EE3324;
     margin: 30px;
 }
 
@@ -394,7 +393,7 @@ h5 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 1500;
     font-style: bold;
-    font-size: 5rem;
+    font-size: 6.8rem;
     text-decoration: none;
 
 }
@@ -734,4 +733,11 @@ h6 {
 
 #logo-wrapper {
     text-align: center;
+}
+
+
+/* -------------- RESULTATER ---------------*/
+
+.result a {
+    margin-bottom: 30px;
 }
