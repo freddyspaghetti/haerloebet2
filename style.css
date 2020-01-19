@@ -374,7 +374,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 5vw;
+    font-size: 7vh;
     text-align: center;
     margin: auto;
     margin-bottom: 30px;
@@ -691,7 +691,7 @@ nav {
 #sponsorer {
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     grid-gap: 20px;
 
 
@@ -715,8 +715,23 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2vw;
+    font-size: 2rem;
     text-align: center;
     margin: auto;
     margin-bottom: 30px;
+}
+
+
+
+/* ------------ GALLERI -------------*/
+
+#logo-wrapper .logo-knap {
+    max-width: 60px;
+    margin: 20px;
+
+
+}
+
+#logo-wrapper {
+    text-align: center;
 }
