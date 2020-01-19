@@ -37,6 +37,12 @@ img {
     margin: auto;
 }
 
+@media screen and (max-width: 1090px) {
+    .logo {
+        margin-top: 55px;
+    }
+}
+
 
 /* --------------  FORSIDE  ---------------  */
 
@@ -537,8 +543,8 @@ nav {
 
 #burger_knap {
     position: fixed;
-    top: 13vh;
-    right: 30px;
+    top: 0;
+    right: 0px;
     width: 55px;
     height: 55px;
     /*    transition: .5s ease-in-out;*/
