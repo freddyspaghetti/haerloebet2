@@ -688,24 +688,21 @@ nav {
 
 /* ------------ SPONSORER ----------------*/
 
-#container {
+#sponsorer {
 
-    display: flex;
-    flex-wrap: nowrap;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+
 
 
 }
 
 
 .item {
-    flex-grow: 1;
-    flex-basis: 350px;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    max-width: 300px;
-    background: white;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
 }
 
 .sponsornavn {
@@ -713,3 +710,13 @@ nav {
 }
 
 .sponsor_img {}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2vw;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
